@@ -1,0 +1,125 @@
+body
+{
+  background-color: #fff6d8;
+}
+
+
+h1
+{
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px;
+	border-left:15px solid #6F8EDC;
+	border-bottom:2px solid #6F8EDC;
+	border-top:2px solid #6F8EDC;
+	color:#6F8EDC;
+	margin:5px;
+	padding:10px;
+	font-size:8vw;
+	background-color:#D7E1F9;
+	font-family: 'Prata', serif;
+}
+
+
+
+
+
+p
+{
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px;
+	border-left:15px solid #6F8EDC;
+	border-bottom:2px solid #6F8EDC;
+	/*border-top:2px solid #6F8EDC;*/
+	color:#6F8EDC;
+	margin:5px;
+	margin-left:25px;
+	padding:10px;
+	font-size:16px;
+	/*background-color:#D7E1F9;*/
+	font-family: 'Prata', serif;
+	
+}
+
+
+
+div.contact
+{
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px;
+	border-left:15px solid #6F8EDC;
+	border-bottom:2px solid #6F8EDC;
+	/*border-top:2px solid #6F8EDC;*/
+	color:#6F8EDC;
+	margin:2px;
+	margin-left:25px;
+	padding:5px;
+	font-size:12px;
+	/*background-color:#D7E1F9;*/
+	font-family: 'Prata', serif;
+	position: absolute;
+}
+
+img.circle
+{
+	border-radius:50%;
+}
+div.info
+{
+	
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px;
+	border-left:15px solid #33ff33;
+	border-bottom:2px solid #33ff33;
+	border-top:2px solid #33ff33;
+	color:#33ff33;
+	font-size:18px;
+	margin:5px;
+	padding:10px;
+	background-color:rgba(255, 212, 170, 0.6);
+	font-family: "Gloria Hallelujah";
+}
+
+.topnav {
+	width:device-width;
+    background-color: #FFE597;
+    overflow: hidden;
+	font-family: 'Prata', serif;
+	/*margin-left:40px;
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px;*/
+	border-left:40px solid #FFE597;
+	position:sticky;
+	top: 0;
+}
+
+
+.topnav a {
+    float: left;
+	color:#6F8EDC;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 17px;
+	font-family: 'Prata', serif;
+	position:sticky;
+	top: 0;
+}
+
+
+.topnav a:hover {
+    background-color: #6F8EDC;
+    color: #FFE597;
+	font-family: 'Prata', serif;
+}
+
+
+
+
+.topnav a.active {
+    background-color: #6F8EDC;
+    color: #FFF6D8;
+	font-family: 'Prata', serif;
+	font-size: 17px;
+	border-right:2px solid #000000;
+	border-left:2px solid #000000;
+}

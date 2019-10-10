@@ -1,0 +1,106 @@
+body{
+	background-color:#33b5ff;	/*full brightness*/
+	//background-color:#33b5cc;	/*80% brightness*/
+	//background-color:#33b599;	/*60% brightness*/
+	//background-color:#33b566;	/*40% brightness*/
+	//background-color:#33b533;	/*20% brightness*/
+	//background-color:#33b500;	/*none of the color component*/
+}
+
+header
+{
+	background-color:brown;
+}
+
+footer
+{
+	background-color:brown;
+}
+section
+{
+	background-color:gray;
+	margin:5px;
+	border-style:double;
+	border-color:green;
+	border-width:3px;
+	padding:7px;
+
+}
+
+p
+{
+	background-color:white;
+	padding:10px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	margin:5px;
+}
+
+p.blueline
+{
+	border-left:12px solid blue;
+	background-color:lightgrey;
+	
+}
+
+p.redline
+{
+	border-left:12px solid red;
+	background-color:lightgrey;
+	border-radius:25px;
+	
+}				
+
+h1
+{
+	color:DodgerBlue;
+	background-color:black;
+}
+
+h2
+{
+	color:Tomato;
+}
+
+h3
+{
+	color:MediumSeaGreen;
+	border-style:dashed;
+	border-color:yellow;
+	border-width:2px;
+	margin:15px;
+	padding:20px;
+	background-color:black;
+	color:white;
+}
+
+img
+{
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	
+	
+}
+
+img.circle
+{
+	border-radius:50%;
+	text-align:center;
+}
+
+.center
+{
+	border-radius:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+
+
+
+
+
