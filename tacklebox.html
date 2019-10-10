@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta chartset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Tacklebox | AllFishing TV | The Best Fishing Resource on the Internet</title>
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|PT+Serif|Patua+One|Roboto|Ubuntu" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/allfishingtvgeneral.css">
+<link rel="stylesheet" href="css/tacklebox.css">
+<script src="js/tacklebox.js"></script>
+
+</head>
+<body>
+<div class = "row">
+	<div class = "col-md-12">
+		<h1 class= "head">
+			<div class="media">
+				<div class="media-left media-bottom">
+					<a href = "index.html"><img src="img/AllFishingTVThumbnailXSmall.png" class="media-object select fish" style="margin-left:10px; margin:7px;">
+					</a>
+				</div>
+				<div class="media-body media-middle">
+					<b id = "exhead">The Tacklebox</b>
+				</div>
+			</div>
+		</h1>
+	</div>
+</div>
+<nav class="navbar col-md-12 navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">
+					Toggle navigation
+				</span>
+				<span class="icon-bar">
+				</span>
+				<span class="icon-bar">
+				</span>
+				<span class="icon-bar">
+				</span>
+			</button>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="index.html">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="media.html">
+						Media
+					</a>
+				</li>
+				<li class="active">
+					<a href="tacklebox.html">
+						The Tacklebox
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						About
+					</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="contact-us.html">
+						Contact Us
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<div class = "row">
+<nav style = "margin:8px;" class=" side col-md-2 col-lg-2 col-xl-2 col-xs-12 col-sm-12">
+      <ul class="list-group">
+        <li id = "rods" class="list-group-item rod" onClick = "rodFill()"><a href="#section1">Rods</a></li>
+        <li id = "reels" class="list-group-item reel" onClick = "reelFill()"><a href="#section2">Reels</a></li>
+        <li id = "boat" class="list-group-item boat" onClick = "boatFill()"><a href="#section3">Boat</a></li>
+		<li id = "cam" class="list-group-item cam" onClick = "camFill()"><a href="#section4">Cameras</a></li>
+      </ul>
+    </nav>
+	<div class = "table-responsive col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+		<table class="table table-borderless">
+		<thead>
+		  <tr>
+			<th id = "item-title-1"></th>
+			<th id = "item-title-2"></th>
+			<th id = "item-title-3"></th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td style = "width:33.33%;" class = "shadow-orange" id = "item-pic-1"></td>
+			<td style = "width:33.33%;" class = "shadow-green" id = "item-pic-2"></td>
+			<td style = "width:33.33%;" class = "shadow-red" id = "item-pic-3"></td>
+		  </tr>
+		  <tr>
+			<td style = "width:33.33%;"><div id = "item-desc-1"></div></td>
+			<td style = "width:33.33%;"><div id = "item-desc-2"></div></td>
+			<td style = "width:33.33%;"><div id = "item-desc-3"></div></td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<hr>
+<footer>
+AllFishing TV<br>
+&copy 2018<br>
+All Rights Reserved
+</footer>
+</html>
